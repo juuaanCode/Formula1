@@ -20,4 +20,4 @@ Dentro de cada gráfico se proporciona el porcentaje que suponen esos 3 primeros
 Para cambiar entre cualquier año entre 1950 y 2022 se puede usar el deslizador de la derecha, teniendo en cuenta que no hay registros del campeonato de constructores para años anteriores a 1958.
 Cada _trozo_ del donut reacciona al pasar el puntero del ratón por encima mostrando los datos de ese competidor (o en el caso del trozo asignado al resto, el número de competidores agregados) y su número de puntos.
 
-Se puede acceder a la visualización [aquí]().
+Se puede acceder a la visualización [aquí](https://juuaancode.github.io/Formula1/).
