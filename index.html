@@ -1,0 +1,32 @@
+<!-- Página HTML del proyecto -->
+<html>
+<head>
+  <title>Resultados de Fórmula 1</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="js/main.js"></script>
+  <script src="js/pilotos.js"></script>
+  <script src="js/constructores.js"></script>
+</head>
+
+<body onload="main()">
+    <h1>Reparto de Puntos en Fórmula 1</h1>
+    <h2>¿Cuánto dejaron para el resto los 3 primeros?</h2>
+    <div class="flex-container">    
+        <div style="border-right: 1px solid gray;">
+            <h3>CAMPEONATO DE<br>PILOTOS</h3>
+            <svg id="grafico_1"></svg>
+        </div>
+        <div>
+            <h3>CAMPEONATO DE<br>CONSTRUCTORES</h3>
+            <svg id="grafico_2"></svg>
+        </div>
+        <div id="slider-contenedor">
+            <h3 id="indicadorAno"></h3>
+            <input type="range" id="sliderAno" max="2022" min="1950" value="2021" step="1" orient="vertical">
+        </div>
+    </div>
+    <label>Fuente de los datos:</label>
+    <label style="font-style: italic;"><br>Formula 1 World Championship (1950 - 2023) de Vopani. Consultado el 30 de octubre de 2023 en <a href="https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020"> este repositorio de Kaggle.</a></label>
+</body>
+</html>
